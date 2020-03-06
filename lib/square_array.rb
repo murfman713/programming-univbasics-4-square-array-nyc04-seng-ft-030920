@@ -1,12 +1,8 @@
+counter = 0
 numbers = [1,2,3]
  
-square_array(numbers)
-
-counter = 0
-array = [1,2,3]
- 
-while array[counter] do
-  puts array[counter] ** 2
+while numbers[counter] do
+  puts numbers[counter] ** 2
   counter += 1
 end
 

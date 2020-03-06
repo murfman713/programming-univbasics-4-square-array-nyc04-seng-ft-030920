@@ -1,9 +1,9 @@
-def square_array(num)
-  num = [1,2,3]
-    counter = 0
+numbers = [1,2,3]
  
-  while num[counter] do
-    sqrt(num)[counter]
-    counter += 1
-  end
-end
+square_array(numbers)
+# => [1,4,9])
+ 
+new_numbers = [9,10,16,25]
+ 
+square_array(new_numbers)
+# => [81,100,256,625]
